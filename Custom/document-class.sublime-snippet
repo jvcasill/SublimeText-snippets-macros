@@ -1,0 +1,10 @@
+<snippet>
+	<content><![CDATA[
+\documentclass[${1:12pt},${2:landscape},${3:twocolumn}]{${4:article}}
+$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>dc</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>

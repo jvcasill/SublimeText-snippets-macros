@@ -1,0 +1,48 @@
+<snippet>
+	<content><![CDATA[
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%                                                  %%%
+%%% University of Arizona themed Beamer presentation %%%
+%%% Based on the Warsaw, Palo Alto and UNL templates %%%
+%%% modified by Joseph V. Casillas (6-13-2011)       %%%
+%%%                                                  %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass{beamer}
+\mode<presentation>{\usetheme{UA2}\setbeamercovered{transparent}}
+\usepackage{ling}
+\usepackage{verbatim}
+\usepackage{movie15}
+
+\title{${1:title}}
+
+\author[Casillas]{Joseph Casillas}
+
+\institute{Universidad de Arizona}
+
+\date{${2:date}}
+
+\subject{Linguistics}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{frame}%Página principal
+  \titlepage
+\end{frame}
+
+
+\begin{frame}
+$0
+\end{frame}
+
+\end{document}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>beamer</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

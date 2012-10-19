@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+The data on adverb usage was analyzed using a three-factor entirely between-subjects ANOVA, with location (Minnesota, Arizona, Los Angeles), writing style (formal, informal), and clause type (main, subordinate) as the factors. All three main effects were significant (location: F(2,72)=54.79, p<.001; style: F(1,72)=49.04, p<.001; clause: F(1,72)=4.47, p<.04), as was the interaction of style by clause (F(1,72)=5.25, p<.03). No other interactions were significant (location by style: F(2,72)=1.26, p>.05; location by clause: F<1; location by style by clause: F<1).
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ANOVA</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

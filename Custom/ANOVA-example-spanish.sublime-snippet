@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+Los datos de credibilidad se analizaron mediante un ANOVA de diseño mixto con la variante ([\textteshlig] – [\textesh]) y el género biológico del participante (hombre/mujer) como factores entre-sujetos, y el género biológico del interlocutor (hombre/mujer) y la formación académica del interlocutor (preparatoria/doctorado) como factores intra-sujetos. Hubo efectos principales significativos para la variante y el nivel de formación académica [Variante: F(1,107) = 12.82; p < .002; Nivel de formación: F(1,107) = 78.49; p < .001], recibiendo así la variante africada y el grupo doctorado valoraciones más altas (véanse el cuadro 2 y el gráfico 2). El género del participante y del interlocutor no fueron factores significativos [Género del participante: (F < 1); Género del interlocutor: F(1,107) = 2.52; p > .05].
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>ANOVAsp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

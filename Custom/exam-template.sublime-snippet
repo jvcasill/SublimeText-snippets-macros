@@ -1,0 +1,53 @@
+<snippet>
+	<content><![CDATA[
+%
+%  Created by Joseph Casillas on 2011-09-15.
+%  Copyright (c) 2011 . All rights reserved.
+%
+%
+\documentclass[12pt]{exam}
+\usepackage{listings}
+\usepackage{pdfsync}
+\usepackage{ling}
+\usepackage{multicol}
+\usepackage{wasysym}
+\usepackage{booktabs}
+
+\setlength{\topmargin}{-0.1in}
+\usepackage{sectsty}
+\sectionfont{\normalsize}
+
+
+\firstpageheader{\begin{bf} ${1:Español 452} -- Casillas\\\ 
+							${2:Examen Final}\end{bf}} {} 
+				{\begin{bf} Alumno: \rule{33.65mm}{.3mm} \\\ 
+						    Calificación:\rule{20mm}{.3mm} /100\end{bf}}
+\footer{\begin{bf} ${3:Otoño} -- ${4:2012}\end{bf}} {} {\begin{bf}Puntos: \rule{31.65mm}{.3mm}\end{bf}}
+\runningheader{\begin{bf}${5:Español 452}\end{bf}}{}{\begin{bf}${6:Examen Final}\end{bf}}
+\addpoints
+
+\begin{document}
+
+\vspace{0.1in} 
+
+
+
+\section{${7:Contesta las siguientes preguntas. Da todo el detalle posible} (${8:30 puntos}): \_\_\_\_\_\_\_\_/${9:30}}
+
+\begin{questions}
+	\question ${10:¿Cuáles son tus preguntas?}
+	\fillwithlines{2.35in}
+	$0
+\end{questions}
+
+
+
+
+\end{document}
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>exam</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

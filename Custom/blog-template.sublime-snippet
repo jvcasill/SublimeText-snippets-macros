@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+Title: ${1:title}
+Blog: ${2:My wordpress}
+Status: ${3:draft}
+Date: ${4:date}${0}
+Comments: ${5:On}
+Category: ${6:LaTeX}
+Keywords: ${7:LaTeX}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>blog</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
