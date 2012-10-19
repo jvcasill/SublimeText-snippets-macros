@@ -1,5 +1,5 @@
-LaTeX-Snippets
-==============
-Snippets from TextMate2 for use in emacs or sublime text 2
+Sublime Text 2-Snippets
+=======================
+Snippets I used on TextMate2 updated for sublime text 2
 
-These are some custom imports from my TextMate bundle (some custom, some modified) for use in sublimetext2.
+Some are custom imports and some are just modifications of other snippets.
