@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-(F(${1:DFnum},${2:DFdnom}) = ${3:Fvalue}, p ${4:<} \ ${5:pValue})
+(\emph{F}(${1:DFnum},${2:DFdnom}) = ${3:Fvalue}, p ${4:<} \ ${5:pValue})
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>result</tabTrigger>
