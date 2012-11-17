@@ -14,7 +14,9 @@
 \mode<presentation>{\usetheme{UA2}\setbeamercovered{transparent}}
 \usepackage{ling}
 \usepackage{verbatim}
-\usepackage{movie15}
+\usepackage{media9}
+\usepackage{tikz}
+\usepackage{tikz-qtree}
 
 \title{${1:title}}
 
