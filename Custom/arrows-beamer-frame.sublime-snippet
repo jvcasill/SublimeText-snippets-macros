@@ -1,0 +1,50 @@
+<snippet>
+	<content><![CDATA[
+\tikzstyle{every picture}+=[remember picture]
+\everymath{\displaystyle}
+
+\begin{frame}[m]\frametitle{}
+
+\tikzstyle{na} = [baseline=-.5ex]
+
+\begin{itemize}[<+-| alert@+>] % makes everything red
+    \item Sujeto
+        \tikz[na] \node[coordinate] (n1) {};
+\end{itemize}
+
+\begin{equation*}
+        \tikz[baseline]{
+            \node[fill=blue!20,anchor=base] (t1)
+            {Juan};
+        }
+        \tikz[baseline]{
+            \node[fill=red!20, ellipse,anchor=base] (t2)
+            {come};
+        }
+        \tikz[baseline]{
+            \node[fill=green!20,anchor=base] (t3)
+            {manzanas};
+        }
+\end{equation*}
+
+\begin{itemize}[<+-| alert@+>]
+    \item Verbo
+        \tikz[na]\node [coordinate] (n2) {};
+    \item Objeto
+        \tikz[na]\node [coordinate] (n3) {};
+\end{itemize}
+
+% the arrows
+\begin{tikzpicture}[overlay]
+        \path[->]<1-> (n1) edge [bend left] (t1);
+        \path[->]<2-> (n2) edge [bend right] (t2);
+        \path[->]<3-> (n3) edge [out=0, in=-90] (t3);
+\end{tikzpicture}
+
+\end{frame}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>arrow</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>
