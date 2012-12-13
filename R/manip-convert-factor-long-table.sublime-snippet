@@ -1,9 +1,10 @@
 <snippet>
 	<content><![CDATA[
-${1:subsetname} = subset(${2:dataFileName}(${3:factorName}=="${4:levelName}") & (${5:factor2Name}=="${6:level2Name}")) $0
+# Make sure participant column is a factor
+${1:data}\$participant <- factor(${1:data}\$participant)
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>subset</tabTrigger>
+	<tabTrigger>aov</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<!-- <scope>source.python</scope> -->
 </snippet>
