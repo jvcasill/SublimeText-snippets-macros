@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+boxplot(${1:DV}~${2:IV}, data=${3:dataName}, legend=${4:T}, xlab="${5:xLabel}", ylab="${6:yLabel}")
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>plot</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
