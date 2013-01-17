@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+\begin{itemize}
+	\item Film Festival
+	\begin{itemize}
+		\item ${0}
+		\item 
+		\item 
+	\end{itemize}
+	\item Ling 507
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+	\item Ling 696b
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+	\item Span 574
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+	\item Span 582
+	\begin{itemize}
+		\item 
+		\item 
+		\item 
+	\end{itemize}
+\end{itemize}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>log</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>
