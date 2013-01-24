@@ -1,0 +1,40 @@
+<snippet>
+	<content><![CDATA[
+\begin{enumerate}
+	\item \textbf{What are the major sections (top level of organization) of the article (e.g. Intro., Methods, etc.)?} \\\
+	${1}
+	\item \textbf{Exclude references, appendices, and such.  Looking only at things that resemble intro., methods, results, and discussion/conclusions, what proportion of the article (\% of total pages) is spent on each of those major sections or topics?  As a reader, do you think this proportion is about right, or do you find some major sections to be too long or too short?  Why?} \\\
+	${2}
+	\item \textbf{How detailed is the description of methods?  If you wanted to replicate this work exactly, could you find out everything you need to know from the methods section?  What sub-sections does the methods section have?} \\\
+	${3}
+	\item \textbf{To what extent does the article use graphs and/vs. tables?} \\\
+	${4}
+	\textbf{What types of information are conveyed through graphs, and what types through tables?} \\\
+	${5}
+	\textbf{Do the graph or table captions contain just about enough information to read the graph without reading much of the text?} \\\
+	${6}
+	\item What types of statistical tests are used (e.g. ANOVAs, t tests, regression, LME, etc.)?  Is it clear in the article how the statistical tests allow the authors to reach their conclusions? \\\
+	${7}
+	\item \textbf{What is the main point of the article?  How far do you have to read (apart from the abstract) to find at least a brief statement of the purpose of this paper? } \\\
+	${8}
+	\item \textbf{To what extent is this article descriptive?  To what extent theoretical?  What theoretical claims are addressed or tested?  Are names of any theories mentioned?} \\\
+	${9}
+	\item \textbf{Is the article about a particular language (including English)?  Does the title mention a language?  What languages are there data from?} \\\
+	${10}
+	\item Which of the following seems to be the main purpose of the article (if any of these):  
+		\begin{itemize}
+			\item to show someone else's claim is wrong
+			\item to provide evidence for the author's own theory
+			\item to test two or more competing explanations/theories/models that are presented as reasonably likely
+			\item to describe something in an understudied language
+			\item to make a large set of data available to the field
+			\item to test or discuss a research method
+			\item other
+		\end{itemize}
+\end{enumerate}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>summary</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.tex.latex</scope>
+</snippet>
