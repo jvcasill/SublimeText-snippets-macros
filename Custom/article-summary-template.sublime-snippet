@@ -21,7 +21,7 @@
 	${9}
 	\item \textbf{Is the article about a particular language (including English)?  Does the title mention a language?  What languages are there data from?} \\\
 	${10}
-	\item Which of the following seems to be the main purpose of the article (if any of these):  
+	\item \textbf{Which of the following seems to be the main purpose of the article (if any of these):} 
 		\begin{itemize}
 			\item to show someone else's claim is wrong
 			\item to provide evidence for the author's own theory
