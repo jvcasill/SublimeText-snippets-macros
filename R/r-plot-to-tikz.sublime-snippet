@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+require(tikzDevice)
+tikz('/PATH/TO/FILE/name_of_plot.tex')
+plot()
+dev.off()
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>tikzplot</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
