@@ -1,4 +1,4 @@
-Sublime Text 2-Snippets and Macros
+Sublime Text - Snippets and Macros
 ==================================
 Snippets and macros I used on TextMate2 updated for sublime text 2
 
