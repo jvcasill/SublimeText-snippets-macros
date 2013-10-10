@@ -1,9 +1,11 @@
 <snippet>
 	<content><![CDATA[
-\texttheta $0
+#reorder columns
+${1:df} <- ${1:df}[,c(${2:1,5,2,3,4})]
+${0}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>theta</tabTrigger>
+	<tabTrigger>rocol</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.tex.latex</scope>
+	<!-- <scope>source.python</scope> -->
 </snippet>
