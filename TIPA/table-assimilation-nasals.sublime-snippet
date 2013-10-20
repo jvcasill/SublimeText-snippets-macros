@@ -11,13 +11,13 @@
 		/n/ inicial & [n] + vocal                 & Alveolar       &  Carne, nada    & \\\ 
 		/ñ/ inicial & [\textltailn] + vocal       & Palatal        &  Caña, ñoña     & \\\ 
 		\hline                                                               
-		            & [m] + /p,b/                 & bilabial       &  “un barco”     & [ú{\bf m.b}ár.ko] \\\ 
-		            & [\textltailm] + /f/         & labiodental    &  “en Finlandia” & [e{\bf \textltailm.f}in.lá\textsubbridge{n}.d\textsubarch{i}a] \\\ 
-		/N/ final   & [\textsubbridge{n}] + /t,d/ & dental         &  “en Finlandia” & [e\textltailm.fin.lá{\bf \textsubbridge{n}.d}\textsubarch{i}a] \\\ 
-		de sílaba   & [n] + /s,l,r/               & alveolar       &  “ansiedad”     & [a{\bf n.s}\textsubarch{i}e.\dh á\dh] \\\ 
-		            & [\'n] + /\textteshlig/      & alveopalatal   &  “ancho”        & [á{\bf \'n.\textteshlig} o] \\\ 
-		            & [\textltailn] + /j/         & palatal        &  “inyección”    & [i{\bf \textltailn.j} ek.s\textsubarch{i}ón] \\\ 
-		            & [\textipa{N}] + /k,g,x/     & velar          &  “tengo”        & [té{\bf \textipa{N}.g}o] \\\ 
+		            & [m] + /p,b/                 & bilabial       &  “un barco”     & \textipa{[u{\bf m.\textprimstress b}a\textfishhookr.ko]} \\\ 
+		            & [\textipa{M}] + /f/         & labiodental    &  “en Finlandia” & \textipa{[e\textbf{M.f}in.\textprimstress la\textsubbridge{n}.d\textsubarch{i}a]} \\\ 
+		/N/ final   & [\textsubbridge{n}] + /t,d/ & dental         &  “en Finlandia” & \textipa{[eM.fin.\textprimstress la{\bf \textsubbridge{n}.d}\textsubarch{i}a]} \\\ 
+		de sílaba   & [n] + /s,l,r/               & alveolar       &  “ansiedad”     & \textipa{[a{\bf n.s}\textsubarch{i}e.\textprimstress DaD]} \\\ 
+		            & [\'n] + /\textteshlig/      & alveopalatal   &  “ancho”        & \textipa{[\textprimstress a{\bf \'n.\textteshlig}o]} \\\ 
+		            & [\textltailn] + /j/         & palatal        &  “inyección”    & \textipa{[i\textbf{N.j}ek.\textprimstress s\textsubarch{i}on]} \\\ 
+		            & [\textipa{N}] + /k,g,x/     & velar          &  “tengo”        & \textipa{[\textprimstress te\textbf{N.g}o]} \\\ 
 		\hline
 	\end{tabular}}
 \end{center}
