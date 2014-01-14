@@ -11,7 +11,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass{beamer}
-\mode<presentation>{\usetheme{UA2}\setbeamercovered{transparent}}
+\mode<presentation>{\usetheme{UA3}\setbeamercovered{transparent}}
 \usepackage{ling}
 \usepackage{verbatim}
 \usepackage{media9}
@@ -19,32 +19,33 @@
 \usepackage{tikz-qtree}
 
 \title{${1:title}}
+\subtitle{${2:subtitle}}
 
 \author[Casillas]{Joseph Casillas}
-
 \institute{Universidad de Arizona}
-
-\date{${2:date}}
-
+\date{${3:date}}
 \subject{Linguistics}
 
 \begin{document}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\begin{frame}%Página principal
-  \titlepage
-\end{frame}
-
 
 \begin{frame}
-$0
+	\frametitle{}
+ 	\titlepage
 \end{frame}
 
+\begin{frame}
+	\frametitle{}
+ 	\tableofcontents
+\end{frame}
+
+${0}
+
 \end{document}
+
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>beamer</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<!-- <scope>source.python</scope> -->
+	<!-- <scope>text.tex.latex</scope> -->
 </snippet>

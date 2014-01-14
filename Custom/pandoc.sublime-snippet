@@ -1,0 +1,11 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+pandoc -s -S -i -t Slidy --mathjax ${1:markdownFileName}.md -o ${1:markdownFileName}.html
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>pandoc</tabTrigger>
+  <description>Convert R markdown file to html5 in shell</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+</snippet>

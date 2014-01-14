@@ -1,0 +1,22 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+% -*- root: ${1:documentName.tex} -*-
+
+\begin{tikzpicture}[scale=.8, z={(-.707,-.3)}]
+  \draw (4,0,0) -- (0,0,0) -- (0,5,0);
+  \draw (4,0,0) -- (4,0,-3) -- (4,5,-3) -- (4,5,0) -- cycle;
+  \draw (4,5,0) -- (0,5,0) -- (0,5,-3) -- (4,5,-3);
+  \draw[style=dashed, color=gray] (4,0,-3) -- (0,0,-3) -- (0,5,-3);
+  \draw[style=dashed, color=gray] (0,0,0) -- (0,0,-3);
+  \draw (2,-.4,0) node{4 ft};
+  \draw (4.6,-.2,-1.5) node{3 ft};
+  \draw (4.5,2.5,-3) node{5 ft};
+\end{tikzpicture}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>tikz</tabTrigger>
+  <description>tikz document</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.tex.latex</scope>
+</snippet>
