@@ -1,0 +1,16 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<div id="${1:div id label}" class="slide titlepage">
+	<h1>${2:title of presentation}</h1>
+	<p>
+		<a href="http://www.jvcasillas.com">Joseph Casillas,</a> <a href="mailto:jvcasill@email.arizona.edu">jvcasill@email.arizona.edu</a>
+	</p> 
+</div>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>myslidy</tabTrigger>
+  <description>Create title page in html5 slides</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+</snippet>
