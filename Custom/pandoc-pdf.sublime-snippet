@@ -1,0 +1,12 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+pandoc ${2:markdownFileName}.md -o ${2:markdownFileName}.pdf
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>pandoc</tabTrigger>
+  <description>Convert R markdown file to pdf in shell</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+</snippet>
+
