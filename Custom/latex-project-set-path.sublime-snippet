@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
-% !TEX root = /Users/casillas/${1:PATH}
+% !TEX root = ${1:/Users/casillas/PATH}
 ${0}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>proj</tabTrigger>
+	<tabTrigger>path</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
 	<scope>text.tex.latex</scope>
 </snippet>

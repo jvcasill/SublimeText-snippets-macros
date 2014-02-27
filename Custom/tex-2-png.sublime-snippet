@@ -1,0 +1,15 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+# .tex to png
+# run in shell
+# set document class
+# [convert={density=${1:300},size=${2:1080}x${3:800},outext=.png}]{standalone}
+pdflatex -shell-escape ${4:fileName}.tex
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>png</tabTrigger>
+  <description>.tex to png in shell</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope></scope>
+</snippet>
