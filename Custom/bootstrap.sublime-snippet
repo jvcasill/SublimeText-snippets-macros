@@ -1,0 +1,19 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+---
+output:
+  knitrBootstrap::bootstrap_document:
+    title: "Test file"
+    theme: default
+    highlight: sunburst
+    theme.chooser: TRUE
+    highlight.chooser: TRUE
+---
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>bootstrap</tabTrigger>
+  <description>knitr bootstrap output for .Rmd</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.plain</scope>
+</snippet>
