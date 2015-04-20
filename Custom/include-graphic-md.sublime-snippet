@@ -4,8 +4,8 @@
 <iframe width="${1:1200}px" height="${2:500}px" src="${3:path/toFile/file.pdf}"></iframe>
 ]]></content>
   <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-  <tabTrigger>inc</tabTrigger>
+  <tabTrigger>img</tabTrigger>
   <description>embed file in markdown</description>
   <!-- Optional: Set a scope to limit where the snippet will trigger -->
-  <scope></scope>
+  <scope>text.html.markdown.knitr, text.tex.latex</scope>
 </snippet>
