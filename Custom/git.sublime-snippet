@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+git rm --cached ${1:fileName}.${2:txt}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>git</tabTrigger>
+  <description>remove file from cache</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>text.plain</scope>
+</snippet>
